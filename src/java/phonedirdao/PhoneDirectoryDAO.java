@@ -15,37 +15,6 @@ public class PhoneDirectoryDAO {
 
     public static void main(String[] args) {
         PhoneDirectoryDAO phoneDirectoryDAO = new PhoneDirectoryDAO();
-
-        /*
-         ArrayList<PhoneDirectoryEntry> myEntries = phoneDirectoryDAO.getAllNumbers();
-         System.out.println(myEntries.size());
-         System.out.println("Test getAllNumbers Method");
-         for(PhoneDirectoryEntry x:myEntries)
-         {
-         System.out.println(x);
-         }
-        
-         PhoneDirectoryEntry bse = phoneDirectoryDAO.getPhoneNumberDetails("08612345");
-         System.out.println(bse);
-        
-        
-         PhoneDirectoryEntry myEntry = new PhoneDirectoryEntry(100, "newTest", "newTest", "newTest", "newTest");
-         phoneDirectoryDAO.addPhoneNumber(myEntry);
-        
-         // Test getPhoneNumberDetails Method
-         ArrayList<PhoneDirectoryEntry> myEntries = phoneDirectoryDAO.getAllNumbers();
-         System.out.println(myEntries.size());
-         System.out.println("Test getAllNumbers Method");
-         for(PhoneDirectoryEntry x:myEntries)
-         {
-         System.out.println(x);
-         }
-                
-        
-         System.out.println(checkPhoneNoExist("087992345"));
-                
-         phoneDirectoryDAO.deleteAllNumbers();
-         */
     }
 
     public PhoneDirectoryDAO() {
